@@ -14,7 +14,7 @@ out/
 .env.development
 .env.test
 .env.production
-
+.env
 # Ignore npm's debug log files
 npm-debug.log*
 
