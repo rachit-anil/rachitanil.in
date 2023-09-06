@@ -24,6 +24,10 @@ app.use(cors())
 
 console.log("store");
 
+app.get('/', (req, res) => {
+  res.send("Hello from Node");
+})
+
 
 app.get('/images/:key', (req, res) => {
   // console.log(req.params)
